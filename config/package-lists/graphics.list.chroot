@@ -3,7 +3,6 @@ gimp-data-extras
 gimp-gap
 gimp-plugin-registry
 gimp-texturize
-gimp-ufraw
 gimp-gutenprint
 gimp-gmic
 gimp-lensfun
@@ -11,7 +10,6 @@ create-resources
 gimp-help-fr
 inkscape
 create-resources
-python-lxml
 pstoedit
 imagemagick
 optipng
