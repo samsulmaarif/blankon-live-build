@@ -9,7 +9,6 @@ vlc-plugin-visualization
 vlc-plugin-video-output
 vlc-plugin-base
 vlc-plugin-qt
-libdvd-pkg
 qwinff
 ffmpeg
 flac
@@ -42,5 +41,4 @@ alsa-utils
 libasound2-plugins
 libasound2-plugin-equal
 oss-compat
-alsa-firmware-loaders
 rtkit
