@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+# Add live-config configuration
+
+cat > /etc/live/config.conf.d/blankon.conf <<-EOF
+LIVE_HOSTNAME="blankon"
+LIVE_USERNAME="blankon"
+LIVE_USER_FULLNAME="Pengguna BlankOn"
+LIVE_USER_DEFAULT_GROUPS="audio cdrom dip floppy video plugdev netdev powerdev scanner bluetooth debian-tor"
+export LIVE_HOSTNAME LIVE_USERNAME LIVE_USER_FULLNAME LIVE_USER_DEFAULT_GROUPS
+EOF
